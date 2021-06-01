@@ -2,49 +2,59 @@ body {
   margin: 0;
   padding: 0;
 }
+
 #title {
   text-align: center;
 }
+
 main {
   text-align: center;
 }
+
 .color {
   text-align: center;
 }
+
 #black {
   border: 1px black solid;
   display: inline-block;
   height: 50px;
   width: 50px;
 }
+
 #blue {
   border: 1px black solid;
   display: inline-block;
   height: 50px;
   width: 50px;
 }
+
 #red {
   border: 1px black solid;
   display: inline-block;
   height: 50px;
   width: 50px;
 }
+
 #green {
   border: 1px black solid;
   display: inline-block;
   height: 50px;
   width: 50px;
 }
+
 #pixel-board {
   margin: 0;
   padding: 0;
 }
+
 .pixel {
   border: black 1px solid;
   display: inline-block;
   height: 40px;
   width: 40px;
 }
+
 #clear-board {
   border: solid black 2px;
   text-align: center;
