@@ -20,7 +20,7 @@ function trocarSelected(clique) {
 }
 document.querySelector('#color-palette').addEventListener('click', trocarSelected);
 function mudarCor(clique) {
-  let corSelected = document.querySelector('.selected').style.backgroundColor;
+  const corSelected = document.querySelector('.selected').style.backgroundColor;
   if (clique.target.className === 'pixel') {
     clique.target.style.backgroundColor = corSelected;
   }
