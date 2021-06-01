@@ -11,29 +11,25 @@ main {
 .color{       
     text-align: center;
 }
-#black {
-    background-color: black;
+#black {    
     border: 1px black solid;
     display: inline-block;
     height: 50px;    
     width: 50px;
 }
-#blue {
-    background-color: blue;
+#blue {  
     border: 1px black solid;
     display: inline-block;
     height: 50px;
     width: 50px;
 }
-#red {
-    background-color: red;
+#red {    
     border: 1px black solid;
     display: inline-block;
     height: 50px;
     width: 50px;
 }
-#green {
-    background-color:green;
+#green {    
     border: 1px black solid;
     display: inline-block;
     height: 50px;
