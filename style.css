@@ -39,10 +39,14 @@ main {
     margin: 0;
     padding: 0; 
 }
-.pixel {   
-    background-color: white;
+.pixel {    
     border: black 1px solid;
     display: inline-block;
     height: 40px;
     width: 40px;
+}
+#clear-board {
+    border: solid black 2px;    
+    text-align: center;   
+    width: 80px;
 }
