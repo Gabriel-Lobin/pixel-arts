@@ -12,14 +12,16 @@ window.onload = function inicio() {
   }
   criarCores();
 };
-function trocarSelected(clique) {
+function trocarSelected(event) {
+  const clique = event;
   if (clique.target.className === 'color') {
     document.querySelector('.selected').classList.remove('selected');
     clique.target.className += ' selected';
   }
 }
 document.querySelector('#color-palette').addEventListener('click', trocarSelected);
-function mudarCor(clique) {
+function mudarCor(event) {
+  const clique = event;
   const corSelected = document.querySelector('.selected').style.backgroundColor;
   if (clique.target.className === 'pixel') {
     clique.target.style.backgroundColor = corSelected;
@@ -28,8 +30,8 @@ function mudarCor(clique) {
 document.querySelector('#pixel-board').addEventListener('click', mudarCor);
 function limpaBoard() {
   const pixels = document.getElementsByClassName('pixel');
-  for (let i = 0; i < pixels.length; i += 1) {
-    pixels[i].style.backgroundColor = 'white';
+  for (let index = 0; index < pixels.length; index += 1) {
+    pixels[index].style.backgroundColor = 'white';
   }
 }
 document.getElementById('clear-board').addEventListener('click', limpaBoard);
